@@ -438,3 +438,82 @@ font-size: 18px;
   color: #AEB1BA;
   font-size: 12px;
 }
+
+/*My Skill & Expertise Section CSS*/
+.Skill_container{
+  margin-top: 20px;
+  /* border: 2px solid green; */
+
+}
+.skillSection{
+  width: 50%;
+  padding-left: 50px;
+  padding-right: 60px;
+  padding-top: 60px;
+  /* border: 1px solid red; */
+ padding-left: 30px;
+}
+.myskilltext{
+  font-size: 18px;
+  font-weight: 650;
+  color: #9B2CFF;
+}
+.skillExperttitle{
+  font-size: 35px;
+}
+.psimage{
+  height: 40px;
+
+}
+.skill_item{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  
+}
+.icon_skill{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  
+  /* border: 2px solid red; */
+}
+.skilltext{
+  font-size: 20px;
+  color: white;
+  width: 125px;
+}
+
+.skillinfo{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.progress{
+  width: 100%;
+  height: 6px;
+  background-color:#292D38;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.progress_bar{
+  height: 100%;
+  background-color:#9B2CFF;
+  width: 95%;
+  border-radius: 10px;
+}
+
+.percent{
+  position: absolute;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  right: 175px;
+ 
+}
+
