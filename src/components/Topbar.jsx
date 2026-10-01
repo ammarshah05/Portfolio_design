@@ -10,12 +10,12 @@ export const Topbar = () => {
                 <div className='name'>Ammar Shah</div>
             </div>
             <div className='menuitems'>
-                <div  className='activelink'><a href="">Home</a></div>
-                <div className='menutext'><a href="">About</a></div>
-                <div className='menutext'><a href="">Services</a></div>
-                <div className='menutext'><a href="">Portfolio</a></div>
-                <div className='menutext'><a href="">Skills</a></div>
-                <div className='menutext'><a href="">Contact</a></div>
+                <div  className='menutext'><a href="#hero">Home</a></div>
+                <div className='menutext'><a href="#hero">About</a></div>
+                <div className='menutext'><a href="#services">Services</a></div>
+                <div className='menutext'><a href="#hero">Portfolio</a></div>
+                <div className='menutext'><a href="#skills">Skills</a></div>
+                <div className='menutext'><a href="#contact">Contact</a></div>
 
             </div>
             <div className='hiremebtn'>
