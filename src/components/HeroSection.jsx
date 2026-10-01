@@ -10,7 +10,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 export const HeroSection = () => {
   return (
     <>
-      <div className="herosection">
+      <div className="herosection" id="hero">
         <div className="left">
           <div className="hellotext">Hello, I'm</div>
           <div className="heroname">Ammar Shah</div>
