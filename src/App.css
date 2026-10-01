@@ -319,6 +319,121 @@ font-size: 13px;
   font-weight: 800;
 
 }
+/*Services Section*/
+
+.services_container{
+  display: flex;
+  margin-bottom: 60px;
+
+
+}
+
+
+.servicesSec{
+  padding-left: 90px;
+  padding-top: 60px;
+  /* border: 2px solid green; */
+  width: 40%;
+ 
+ 
+  
+  
+}
+
+.whatido{
+  font-size: 18px;
+  font-weight: 650;
+  color: #9B2CFF;
+}
+.servicetitle{
+  font-size: 35px;
+}
+
+.service_container{
+  display: flex;
+  justify-content: flex-start;
+  align-items:flex-start;
+  gap: 10px;
+}
+.graphic_box{
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  flex-direction: column;
+  /* border: 2px solid red; */
+}
+.graphicTitle{
+  font-size: 23px;
+  font-weight: 700;
+}
+.services_list{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+  
+}
+.graphics_detail{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 10px;
+}
+.graphicTitle{
+  color: white;
+}
+.tasklist{
+  color:#777B87
+}
+
+.iconbg{
+  background-color:#9B2CFF;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+
+}
+.penicon{
+  color: white;
+  font-size: 50px;
+  
+ 
+}
+.divider {
+  width: 1px;
+  height: 320px;
+  margin-top: 120px;
+  background-color:#777B87;
+}
+.view_servicebtn{
+  padding: 5px 5px;
+  border: 2px solid #8E25F5;
+  width: 160px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 14px;
+}
+.viewtext{
+   font-size: 14px;
+  color: white;
+  
+}
+.forwardarrow{
+color:#8E25F5;
+font-size: 18px;
+}
 .stattext{
   color: #AEB1BA;
   font-size: 12px;
